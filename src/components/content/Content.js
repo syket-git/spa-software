@@ -4,17 +4,17 @@ import "./Content.css";
 import Users from '../users/Users';
 import Summery from '../summery/Summery';
 
+
 const Content = () => {
     const [data, setData] = useState(fakeData);
     const [friend, setFriend] = useState([]);
 
     const handleClicked = (data) => {
         console.log("clicked", data)
-        handleClicked.setAttribute('disabled', 'disabled')
             const newFriend = [...friend, data];
             setFriend(newFriend);
-            
-            
+        
+        
             
         
     }

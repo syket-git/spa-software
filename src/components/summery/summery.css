@@ -1,0 +1,16 @@
+img{
+    width: 70px;
+    height:70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 15px;
+}
+.Summery{
+    width: 200px;
+    height: 400px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    padding: 30px;
+    position:fixed;
+}
