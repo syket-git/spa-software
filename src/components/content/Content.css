@@ -1,0 +1,12 @@
+.content{
+    display:flex;
+    margin-top: 20px;
+    width: 100%;
+}
+.user-info{
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-right: 1px solid lightgray;
+
+}
